@@ -1,0 +1,182 @@
+/*Common*/
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('tessellation.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #7ff000;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #7ff000;
+    color: #000000;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #008000;
+    color: #000000;
+}
+
+.head1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.head2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head2 li {
+    display: inline;
+    margin: 0 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #7ff000;
+    font-size: 14px;
+}
+
+/*home*/
+.home-con1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.home-con1-con1, .home-con1-con2, .home-con1-con3, .home-con1-con4 {
+    width: 100%;
+    text-align: left;
+    font-size: 70px;
+}
+
+.home-con1-con1, .home-con1-con3 {
+    color: #7ff000;
+}
+
+.home-con2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 110px;
+    left: 860px;
+}
+
+.home-con2 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*about*/
+.about-con1 {
+    text-align: left;
+    color: #7ff000;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.about-con2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 250px;
+}
+
+/*skills*/
+.skills-con1 {
+    text-align: left;
+    color: #7ff000;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.skills-con2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.skills-con2 h3 {
+    color: #7ff000;
+}
+
+.skills-con2-card {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    flex: 1;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+/* contact.html */
+.contact-con1 {
+    text-align: center;
+    color: chartreuse;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #7ff000;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.contact-con2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contact-con2 a {
+    text-decoration: none;
+    color: chartreuse;
+    margin: 0 40px;
+}
+
+.contact-con2 i {
+    font-size: 50px;
+}
